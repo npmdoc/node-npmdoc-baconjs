@@ -51,7 +51,7 @@
 
         href="https://github.com/baconjs/bacon.js"
 
-    >baconjs (v0.7.92)</a>
+    >baconjs (v0.7.93)</a>
 </h1>
 <h4>A small functional reactive programming lib for JavaScript.</h4>
 <div class="apidocSectionDiv"><a
@@ -550,6 +550,439 @@
         <li>
 
             <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">baconjs.</span>version</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.baconjs.Bacon">module baconjs.Bacon</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.Bus">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>Bus
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.CompositeUnsubscribe">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>CompositeUnsubscribe
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.Desc">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>Desc
+            <span class="apidocSignatureSpan">(context, method, args)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.Dispatcher">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>Dispatcher
+            <span class="apidocSignatureSpan">(_subscribe, _handleEvent)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.End">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>End
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.Error">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>Error
+            <span class="apidocSignatureSpan">(error)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.Event">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>Event
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.EventStream">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>EventStream
+            <span class="apidocSignatureSpan">(desc, subscribe, handler)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.Initial">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>Initial
+            <span class="apidocSignatureSpan">(valueF, eager)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.Next">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>Next
+            <span class="apidocSignatureSpan">(valueF, eager)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.Observable">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>Observable
+            <span class="apidocSignatureSpan">(desc)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.Property">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>Property
+            <span class="apidocSignatureSpan">(desc, subscribe, handler)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.combineAsArray">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>combineAsArray
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.combineTemplate">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>combineTemplate
+            <span class="apidocSignatureSpan">(template)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.combineWith">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>combineWith
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.constant">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>constant
+            <span class="apidocSignatureSpan">(value)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.fromArray">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>fromArray
+            <span class="apidocSignatureSpan">(values)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.fromBinder">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>fromBinder
+            <span class="apidocSignatureSpan">(binder)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.fromCallback">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>fromCallback
+            <span class="apidocSignatureSpan">(f)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.fromESObservable">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>fromESObservable
+            <span class="apidocSignatureSpan">(_observable)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.fromEvent">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>fromEvent
+            <span class="apidocSignatureSpan">(target, eventName, eventTransformer)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.fromEventTarget">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>fromEventTarget
+            <span class="apidocSignatureSpan">(target, eventName, eventTransformer)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.fromNodeCallback">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>fromNodeCallback
+            <span class="apidocSignatureSpan">(f)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.fromPoll">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>fromPoll
+            <span class="apidocSignatureSpan">(delay, poll)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.fromPromise">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>fromPromise
+            <span class="apidocSignatureSpan">(promise, abort)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.groupSimultaneous">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>groupSimultaneous
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.interval">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>interval
+            <span class="apidocSignatureSpan">(delay)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.later">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>later
+            <span class="apidocSignatureSpan">(delay, value)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.mergeAll">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>mergeAll
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.never">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>never
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.onValues">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>onValues
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.once">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>once
+            <span class="apidocSignatureSpan">(value)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.repeat">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>repeat
+            <span class="apidocSignatureSpan">(generator)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.repeatedly">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>repeatedly
+            <span class="apidocSignatureSpan">(delay, values)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.retry">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>retry
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.sequentially">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>sequentially
+            <span class="apidocSignatureSpan">(delay, values)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.spy">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>spy
+            <span class="apidocSignatureSpan">(spy)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.toString">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.try">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>try
+            <span class="apidocSignatureSpan">(f)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.update">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>update
+            <span class="apidocSignatureSpan">(initial)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.when">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>when
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.zipAsArray">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>zipAsArray
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.baconjs.Bacon.zipWith">
+            function <span class="apidocSignatureSpan">baconjs.Bacon.</span>zipWith
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">baconjs.</span>Bacon</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">baconjs.Bacon.</span>UpdateBarrier</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">baconjs.Bacon.</span>_</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">baconjs.Bacon.</span>scheduler</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">baconjs.Bacon.</span>more</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">baconjs.Bacon.</span>noMore</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">baconjs.Bacon.</span>version</span>
 
         </li>
 
@@ -2073,7 +2506,7 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.baconjs.UpdateBarrier.afterTransaction">
             function <span class="apidocSignatureSpan">baconjs.UpdateBarrier.</span>afterTransaction
-            <span class="apidocSignatureSpan">(f)</span>
+            <span class="apidocSignatureSpan">(obs, f)</span>
             </a>
 
         </li>
@@ -2980,12 +3413,12 @@ args...]) : EventStream[A]&#x22;) a variant of fromCallback which calls the name
     return withDesc(new Bacon.Desc(Bacon, &#x22;fromArray&#x22;, values), Bacon.never());
   } else {
     var i = 0;
-    return new EventStream(new Bacon.Desc(Bacon, &#x22;fromArray&#x22;, [values]), function (sink) {
+    var stream = new EventStream(new Bacon.Desc(Bacon, &#x22;fromArray&#x22;, [values]), function (sink) {
       var unsubd = false;
       var reply = Bacon.more;
       var pushing = false;
       var pushNeeded = false;
-      var push = function () {
+      function push() {
         pushNeeded = true;
         if (pushing) {
           return;
@@ -3000,7 +3433,7 @@ args...]) : EventStream[A]&#x22;) a variant of fromCallback which calls the name
               if (i === values.length) {
                 sink(endEvent());
               } else {
-                UpdateBarrier.afterTransaction(push);
+                UpdateBarrier.afterTransaction(stream, push);
               }
             }
           }
@@ -3015,6 +3448,7 @@ args...]) : EventStream[A]&#x22;) a variant of fromCallback which calls the name
         return unsubd;
       };
     });
+    return stream;
   }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
@@ -4371,6 +4805,1989 @@ function to combine the n values from n sources, instead of returning them in an
 </div>
 
 <div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.baconjs.Bacon" id="apidoc.module.baconjs.Bacon">module baconjs.Bacon</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.Bus" id="apidoc.element.baconjs.Bacon.Bus">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>Bus
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Bus() {
+  if (!(this instanceof Bus)) {
+    return new Bus();
+  }
+
+  this.unsubAll = _.bind(this.unsubAll, this);
+  this.subscribeAll = _.bind(this.subscribeAll, this);
+  this.guardedSink = _.bind(this.guardedSink, this);
+
+  this.sink = undefined;
+  this.subscriptions = [];
+  this.ended = false;
+  EventStream.call(this, new Bacon.Desc(Bacon, &#x22;Bus&#x22;, []), this.subscribeAll);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+[`property.changes`](#property-changes) creates a stream of changes to the [`Property`](#property). The stream *does not* include
+an event for the current value of the Property at the time this method was called.
+
+&#x3c;a name=&#x22;property-toeventstream&#x22;&#x3e;&#x3c;/a&#x3e;
+[`property.toEventStream()`](#property-toeventstream &#x22;property.toEventStream(@ : Property[A]) : EventStream[A]&#x22;) creates
+ an EventStream based on this Property. The stream contains also an event for the current
+value of this Property at the time this method was called.
+
+[`new Bacon.<span class="apidocCodeKeywordSpan">Bus</span>()`](#new-bacon-bus) creates a pushable/pluggable stream (see [Bus](#bus
+) section below)
+
+Pro tip: you can also put Errors into streams created with the
+constructors above, by using an [`Bacon.Error`](#bacon-error) object instead of a plain
+value.
+
+Bacon.fromBinder for custom streams
+-----------------------------------
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.CompositeUnsubscribe" id="apidoc.element.baconjs.Bacon.CompositeUnsubscribe">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>CompositeUnsubscribe
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function CompositeUnsubscribe() {
+  var ss = arguments.length &#x3c;= 0 || arguments[0] === undefined ? [] : arguments[0];
+
+  this.unsubscribe = _.bind(this.unsubscribe, this);
+  this.unsubscribed = false;
+  this.subscriptions = [];
+  this.starting = [];
+  for (var i = 0, s; i &#x3c; ss.length; i++) {
+    s = ss[i];
+    this.add(s);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.Desc" id="apidoc.element.baconjs.Bacon.Desc">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>Desc
+        <span class="apidocSignatureSpan">(context, method, args)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Desc(context, method, args) {
+  this.context = context;
+  this.method = method;
+  this.args = args;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.Dispatcher" id="apidoc.element.baconjs.Bacon.Dispatcher">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>Dispatcher
+        <span class="apidocSignatureSpan">(_subscribe, _handleEvent)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Dispatcher(_subscribe, _handleEvent) {
+  this._subscribe = _subscribe;
+  this._handleEvent = _handleEvent;
+  this.subscribe = _.bind(this.subscribe, this);
+  this.handleEvent = _.bind(this.handleEvent, this);
+  this.pushing = false;
+  this.ended = false;
+  this.prevError = undefined;
+  this.unsubSrc = undefined;
+  this.subscriptions = [];
+  this.queue = [];
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.End" id="apidoc.element.baconjs.Bacon.End">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>End
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function End() {
+  if (!(this instanceof End)) {
+    return new End();
+  }
+  Event.call(this);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+$(&#x22;#my-div&#x22;).asEventStream(&#x22;click&#x22;, function(event, args) { return args[0] })
+```
+
+&#x3c;a name=&#x22;bacon-frompromise&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.fromPromise(promise [, abort] [, eventTransformer])`](#bacon-frompromise &#x22;Bacon.fromPromise(promise : Promise[A] [,
+abort : boolean][, eventTransformer]) : EventStream[A]&#x22;) creates an EventStream from a Promise object such as JQuery Ajax.
+This stream will contain a single value or an error, followed immediately by stream end.
+You can use the optional abort flag (i.e. ´fromPromise(p, true)´ to have the `abort` method of the given promise be called when
+all subscribers have been removed from the created stream.
+You can also pass an optional function that transforms the promise value into Events. The default is to transform the value into
+ `[new Bacon.Next(value), new Bacon.<span class="apidocCodeKeywordSpan">End</span>()]`.
+Check out this [example](https://github.com/raimohanska/baconjs-examples/blob/master/resources/public/index.html).
+
+&#x3c;a name=&#x22;bacon-fromevent&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.fromEvent(target, eventName [, eventTransformer])`](#bacon-fromevent &#x22;Bacon.fromEvent(target : EventTarget | EventEmitter
+, eventName : String [, eventTransformer]) : EventStream&#x22;) creates an EventStream from events
+on a DOM EventTarget or Node.JS EventEmitter object, or an object that supports event listeners using `on`/`off` methods.
+You can also pass an optional function that transforms the emitted
+events&#x27; parameters.
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.Error" id="apidoc.element.baconjs.Bacon.Error">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>Error
+        <span class="apidocSignatureSpan">(error)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Error(error) {
+  if (!(this instanceof Error)) {
+    return new Error(error);
+  }
+  this.error = error;
+  Event.call(this);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+when there are subscribers to the stream. Polling ends permanently when
+`f` returns [`Bacon.End`](#bacon-end).
+
+&#x3c;a name=&#x22;bacon-once&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.once(value)`](#bacon-once &#x22;Bacon.once(value : Event[A] | A) : EventStream[A]&#x22;) creates an EventStream that delivers
+ the given
+single value for the first subscriber. The stream will end immediately
+after this value. You can also send an [`Bacon.Error`](#bacon-error) event instead of a
+value: `Bacon.once(new Bacon.<span class="apidocCodeKeywordSpan">Error</span>(&#x22;fail&#x22;))`.
+
+&#x3c;a name=&#x22;bacon-fromarray&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.fromArray(values)`](#bacon-fromarray &#x22;Bacon.fromArray(values : Array[Event[A] | A]) : EventStream[A]&#x22;) creates
+ an EventStream that delivers the given
+series of values (given as array) to the first subscriber. The stream ends after these
+values have been delivered. You can also send [`Bacon.Error`](#bacon-error) events, or
+any combination of pure values and error events like this:
+`Bacon.fromArray([1, new Bacon.Error()])
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.Event" id="apidoc.element.baconjs.Bacon.Event">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>Event
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Event() {
+  this.id = ++eventIdCounter;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.EventStream" id="apidoc.element.baconjs.Bacon.EventStream">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>EventStream
+        <span class="apidocSignatureSpan">(desc, subscribe, handler)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function EventStream(desc, subscribe, handler) {
+  if (!(this instanceof EventStream)) {
+    return new EventStream(desc, subscribe, handler);
+  }
+  if (_.isFunction(desc)) {
+    handler = subscribe;
+    subscribe = desc;
+    desc = Desc.empty;
+  }
+  Observable.call(this, desc);
+  assertFunction(subscribe);
+  this.dispatcher = new Dispatcher(subscribe, handler);
+  registerObs(this);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+[`Bacon.never()`](#bacon-never &#x22;Bacon.never() : EventStream&#x22;) creates an EventStream that immediately ends.
+
+&#x3c;a name=&#x22;bacon-later&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.later(delay, value)`](#bacon-later &#x22;Bacon.later(delay : Number, value : A) : EventStream[A]&#x22;) creates a single
+-element stream that
+produces given value after given delay (milliseconds).
+
+&#x3c;a name=&#x22;new-bacon-eventstream&#x22;&#x3e;&#x3c;/a&#x3e;
+[`new Bacon.<span class="apidocCodeKeywordSpan">EventStream</span>(subscribe)`](#new-bacon-eventstream &#x22;new Bacon.EventStream
+(subscribe)&#x22;) creates an [`EventStream`](#eventstream) with the given subscribe function.
+
+[`property.changes`](#property-changes) creates a stream of changes to the [`Property`](#property). The stream *does not* include
+an event for the current value of the Property at the time this method was called.
+
+&#x3c;a name=&#x22;property-toeventstream&#x22;&#x3e;&#x3c;/a&#x3e;
+[`property.toEventStream()`](#property-toeventstream &#x22;property.toEventStream(@ : Property[A]) : EventStream[A]&#x22;) creates
+ an EventStream based on this Property. The stream contains also an event for the current
+value of this Property at the time this method was called.
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.Initial" id="apidoc.element.baconjs.Bacon.Initial">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>Initial
+        <span class="apidocSignatureSpan">(valueF, eager)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Initial(valueF, eager) {
+  if (!(this instanceof Initial)) {
+    return new Initial(valueF, eager);
+  }
+  Next.call(this, valueF, eager);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.Next" id="apidoc.element.baconjs.Bacon.Next">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>Next
+        <span class="apidocSignatureSpan">(valueF, eager)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Next(valueF, eager) {
+  if (!(this instanceof Next)) {
+    return new Next(valueF, eager);
+  }
+
+  Event.call(this);
+
+  if (!eager &#x26;&#x26; _.isFunction(valueF) || (valueF != null ? valueF._isNext : void 0)) {
+    this.valueF = valueF;
+    this.valueInternal = void 0;
+  } else {
+    this.valueF = void 0;
+    this.valueInternal = valueF;
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+$(&#x22;#my-div&#x22;).asEventStream(&#x22;click&#x22;, function(event, args) { return args[0] })
+```
+
+&#x3c;a name=&#x22;bacon-frompromise&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.fromPromise(promise [, abort] [, eventTransformer])`](#bacon-frompromise &#x22;Bacon.fromPromise(promise : Promise[A] [,
+abort : boolean][, eventTransformer]) : EventStream[A]&#x22;) creates an EventStream from a Promise object such as JQuery Ajax.
+This stream will contain a single value or an error, followed immediately by stream end.
+You can use the optional abort flag (i.e. ´fromPromise(p, true)´ to have the `abort` method of the given promise be called when
+all subscribers have been removed from the created stream.
+You can also pass an optional function that transforms the promise value into Events. The default is to transform the value into
+ `[new Bacon.<span class="apidocCodeKeywordSpan">Next</span>(value), new Bacon.End()]`.
+Check out this [example](https://github.com/raimohanska/baconjs-examples/blob/master/resources/public/index.html).
+
+&#x3c;a name=&#x22;bacon-fromevent&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.fromEvent(target, eventName [, eventTransformer])`](#bacon-fromevent &#x22;Bacon.fromEvent(target : EventTarget | EventEmitter
+, eventName : String [, eventTransformer]) : EventStream&#x22;) creates an EventStream from events
+on a DOM EventTarget or Node.JS EventEmitter object, or an object that supports event listeners using `on`/`off` methods.
+You can also pass an optional function that transforms the emitted
+events&#x27; parameters.
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.Observable" id="apidoc.element.baconjs.Bacon.Observable">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>Observable
+        <span class="apidocSignatureSpan">(desc)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Observable(desc) {
+  this.desc = desc;
+  this.id = ++idCounter;
+  this.initialDesc = this.desc;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.Property" id="apidoc.element.baconjs.Bacon.Property">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>Property
+        <span class="apidocSignatureSpan">(desc, subscribe, handler)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Property(desc, subscribe, handler) {
+  Observable.call(this, desc);
+  assertFunction(subscribe);
+  this.dispatcher = new PropertyDispatcher(this, subscribe, handler);
+  registerObs(this);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.combineAsArray" id="apidoc.element.baconjs.Bacon.combineAsArray">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>combineAsArray
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">combineAsArray = function () {
+  var streams = argumentsToObservables(arguments);
+  if (streams.length) {
+    var sources = [];
+    for (var i = 0; i &#x3c; streams.length; i++) {
+      var stream = isObservable(streams[i]) ? streams[i] : Bacon.constant(streams[i]);
+      sources.push(new Source(stream, true));
+    }
+    return withDesc(new Bacon.Desc(Bacon, &#x22;combineAsArray&#x22;, streams), Bacon.when(sources, function () {
+      for (var _len9 = arguments.length, xs = Array(_len9), _key9 = 0; _key9 &#x3c; _len9; _key9++) {
+        xs[_key9] = arguments[_key9];
+      }
+
+      return xs;
+    }).toProperty());
+  } else {
+    return Bacon.constant([]);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+given value will be used as the initial value. If the property has an
+initial value of its own, the given value will be ignored.
+
+Combining multiple streams and properties
+-----------------------------------------
+
+&#x3c;a name=&#x22;bacon-combineasarray&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.<span class="apidocCodeKeywordSpan">combineAsArray</span>(streams)`](#bacon-combineasarray &#x22;Bacon.combineAsArray(streams
+)&#x22;) combines Properties, EventStreams and
+constant values so that the result Property will have an array of all
+property values as its value. The input array may contain both Properties
+and EventStreams. In the latter case, the stream is first converted into
+a Property and then combined with the other properties.
+
+&#x3c;a name=&#x22;bacon-combineasarray-multiple-streams&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.combineAsArray(s1, s2...)`](#bacon-combineasarray-multiple-streams &#x22;Bacon.combineAsArray(s1, s2...)&#x22;) just like
+ above, but with streams
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.combineTemplate" id="apidoc.element.baconjs.Bacon.combineTemplate">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>combineTemplate
+        <span class="apidocSignatureSpan">(template)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">combineTemplate = function (template) {
+  function current(ctxStack) {
+    return ctxStack[ctxStack.length - 1];
+  }
+  function setValue(ctxStack, key, value) {
+    current(ctxStack)[key] = value;
+    return value;
+  }
+  function applyStreamValue(key, index) {
+    return function (ctxStack, values) {
+      return setValue(ctxStack, key, values[index]);
+    };
+  }
+  function constantValue(key, value) {
+    return function (ctxStack) {
+      return setValue(ctxStack, key, value);
+    };
+  }
+
+  function mkContext(template) {
+    return isArray(template) ? [] : {};
+  }
+
+  function pushContext(key, value) {
+    return function (ctxStack) {
+      var newContext = mkContext(value);
+      setValue(ctxStack, key, newContext);
+      return ctxStack.push(newContext);
+    };
+  }
+
+  function compile(key, value) {
+    if (isObservable(value)) {
+      streams.push(value);
+      return funcs.push(applyStreamValue(key, streams.length - 1));
+    } else if (value &#x26;&#x26; (value.constructor == Object || value.constructor == Array)) {
+      var popContext = function (ctxStack) {
+        return ctxStack.pop();
+      };
+      funcs.push(pushContext(key, value));
+      compileTemplate(value);
+      return funcs.push(popContext);
+    } else {
+      return funcs.push(constantValue(key, value));
+    }
+  }
+
+  function combinator(values) {
+    var rootContext = mkContext(template);
+    var ctxStack = [rootContext];
+    for (var i = 0, f; i &#x3c; funcs.length; i++) {
+      f = funcs[i];
+      f(ctxStack, values);
+    }
+    return rootContext;
+  }
+
+  function compileTemplate(template) {
+    return _.each(template, compile);
+  }
+
+  var funcs = [];
+  var streams = [];
+
+  compileTemplate(template);
+
+  return withDesc(new Bacon.Desc(Bacon, &#x22;combineTemplate&#x22;, [template]), Bacon.combineAsArray(streams).map(combinator));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+&#x3c;a name=&#x22;bacon-combinewith-streams-array-f-last&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.combineWith(streams, f)`](#bacon-combinewith-streams-array-f-last &#x22;Bacon.combineWith(streams, f)&#x22;) like above
+
+&#x3c;a name=&#x22;bacon-combinewith-f-last&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.combineWith(stream1, stream2..., f)`](#bacon-combinewith-f-last &#x22;Bacon.combineWith(stream1, stream2 ..., f)&#x22;)
+like above
+
+&#x3c;a name=&#x22;bacon-combinetemplate&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.<span class="apidocCodeKeywordSpan">combineTemplate</span>(template)`](#bacon-combinetemplate &#x22;Bacon.combineTemplate
+(template)&#x22;) combines Properties, EventStreams and
+constant values using a template
+object. For instance, assuming you&#x27;ve got streams or properties named
+`password`, `username`, `firstname` and `lastname`, you can do
+
+```js
+var password, username, firstname, lastname; // &#x3c;- properties or streams
+var loginInfo = Bacon.combineTemplate({
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.combineWith" id="apidoc.element.baconjs.Bacon.combineWith">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>combineWith
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">combineWith = function () {
+  var _argumentsToObservablesAndFunction = argumentsToObservablesAndFunction(arguments);
+
+  var streams = _argumentsToObservablesAndFunction[0];
+  var f = _argumentsToObservablesAndFunction[1];
+
+  var desc = new Bacon.Desc(Bacon, &#x22;combineWith&#x22;, [f].concat(streams));
+  return withDesc(desc, Bacon.combineAsArray(streams).map(function (values) {
+    return f.apply(undefined, values);
+  }));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+stream = Bacon.once(2)
+constant = 3
+Bacon.combineAsArray(property, stream, constant)
+# produces the value [1,2,3]
+```
+
+&#x3c;a name=&#x22;bacon-combinewith&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.<span class="apidocCodeKeywordSpan">combineWith</span>(f, stream1, stream2...)`](#bacon-combinewith &#x22;Bacon.combineWith
+(f, stream1, stream2 ...)&#x22;) combines given *n* Properties,
+EventStreams and constant values using the given n-ary function `f(v1, v2 ...)`.
+To calculate the current sum of three numeric Properties, you can do
+
+```js
+function sum3(x,y,z) { return x + y + z }
+Bacon.combineWith(sum3, p1, p2, p3)
+```
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.constant" id="apidoc.element.baconjs.Bacon.constant">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>constant
+        <span class="apidocSignatureSpan">(value)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">constant = function (value) {
+  return new Property(new Bacon.Desc(Bacon, &#x22;constant&#x22;, [value]), function (sink) {
+    sink(initialEvent(value));
+    sink(endEvent());
+    return nop;
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+second.
+
+You can also give any number of arguments to [`fromCallback`](#bacon-fromcallback), which will be
+passed to the function. These arguments can be simple variables, Bacon
+EventStreams or Properties. For example the following will output &#x22;Bacon rules&#x22;:
+
+```js
+bacon = Bacon.<span class="apidocCodeKeywordSpan">constant</span>(&#x27;bacon&#x27;)
+Bacon.fromCallback(function(a, b, callback) {
+  callback(a + &#x27; &#x27; + b);
+}, bacon, &#x27;rules&#x27;).log();
+```
+
+&#x3c;a name=&#x22;bacon-fromcallback-object&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.fromCallback(object, methodName [, args...])`](#bacon-fromcallback-object &#x22;Bacon.fromCallback(object, methodName [,
+args...]) : EventStream[A]&#x22;) a variant of fromCallback which calls the named method of a given object.
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.fromArray" id="apidoc.element.baconjs.Bacon.fromArray">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>fromArray
+        <span class="apidocSignatureSpan">(values)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">fromArray = function (values) {
+  assertArray(values);
+  if (!values.length) {
+    return withDesc(new Bacon.Desc(Bacon, &#x22;fromArray&#x22;, values), Bacon.never());
+  } else {
+    var i = 0;
+    var stream = new EventStream(new Bacon.Desc(Bacon, &#x22;fromArray&#x22;, [values]), function (sink) {
+      var unsubd = false;
+      var reply = Bacon.more;
+      var pushing = false;
+      var pushNeeded = false;
+      function push() {
+        pushNeeded = true;
+        if (pushing) {
+          return;
+        }
+        pushing = true;
+        while (pushNeeded) {
+          pushNeeded = false;
+          if (reply !== Bacon.noMore &#x26;&#x26; !unsubd) {
+            var value = values[i++];
+            reply = sink(toEvent(value));
+            if (reply !== Bacon.noMore) {
+              if (i === values.length) {
+                sink(endEvent());
+              } else {
+                UpdateBarrier.afterTransaction(stream, push);
+              }
+            }
+          }
+        }
+        pushing = false;
+        return pushing;
+      };
+
+      push();
+      return function () {
+        unsubd = true;
+        return unsubd;
+      };
+    });
+    return stream;
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+&#x3c;a name=&#x22;bacon-once&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.once(value)`](#bacon-once &#x22;Bacon.once(value : Event[A] | A) : EventStream[A]&#x22;) creates an EventStream that delivers
+ the given
+single value for the first subscriber. The stream will end immediately
+after this value. You can also send an [`Bacon.Error`](#bacon-error) event instead of a
+value: `Bacon.once(new Bacon.Error(&#x22;fail&#x22;))`.
+
+&#x3c;a name=&#x22;bacon-fromarray&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.<span class="apidocCodeKeywordSpan">fromArray</span>(values)`](#bacon-fromarray &#x22;Bacon.fromArray(values : Array[Event
+[A] | A]) : EventStream[A]&#x22;) creates an EventStream that delivers the given
+series of values (given as array) to the first subscriber. The stream ends after these
+values have been delivered. You can also send [`Bacon.Error`](#bacon-error) events, or
+any combination of pure values and error events like this:
+`Bacon.fromArray([1, new Bacon.Error()])
+
+&#x3c;a name=&#x22;bacon-interval&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.interval(interval, value)`](#bacon-interval &#x22;Bacon.interval(interval : Number, value : A) : EventStream[A]&#x22;) repeats
+ the single element
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.fromBinder" id="apidoc.element.baconjs.Bacon.fromBinder">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>fromBinder
+        <span class="apidocSignatureSpan">(binder)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">fromBinder = function (binder) {
+  var eventTransformer = arguments.length &#x3c;= 1 || arguments[1] === undefined ? _.id : arguments[1];
+
+  var desc = new Bacon.Desc(Bacon, &#x22;fromBinder&#x22;, [binder, eventTransformer]);
+  return new EventStream(desc, function (sink) {
+    var unbound = false;
+    var shouldUnbind = false;
+    var unbind = function () {
+      if (!unbound) {
+        if (typeof unbinder !== &#x22;undefined&#x22; &#x26;&#x26; unbinder !== null) {
+          unbinder();
+          return unbound = true;
+        } else {
+          return shouldUnbind = true;
+        }
+      }
+    };
+    var unbinder = binder(function () {
+      var ref;
+
+      for (var _len7 = arguments.length, args = Array(_len7), _key7 = 0; _key7 &#x3c; _len7; _key7++) {
+        args[_key7] = arguments[_key7];
+      }
+
+      var value = eventTransformer.apply(this, args);
+      if (!(isArray(value) &#x26;&#x26; ((ref = _.last(value)) != null ? ref._isEvent : undefined))) {
+        value = [value];
+      }
+      var reply = Bacon.more;
+      for (var i = 0, event; i &#x3c; value.length; i++) {
+        event = value[i];
+        reply = sink(event = toEvent(event));
+        if (reply === Bacon.noMore || event.isEnd()) {
+          unbind();
+          return reply;
+        }
+      }
+      return reply;
+    });
+    if (shouldUnbind) {
+      unbind();
+    }
+    return unbind;
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+Bacon.fromBinder for custom streams
+-----------------------------------
+
+If none of the factory methods above apply, you may of course roll your own EventStream by using [`Bacon.fromBinder`](#bacon-frombinder
+).
+
+&#x3c;a name=&#x22;bacon-frombinder&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.<span class="apidocCodeKeywordSpan">fromBinder</span>(subscribe)`](#bacon-frombinder &#x22;Bacon.fromBinder(subscribe)&#
+x22;) The parameter `subscribe` is a function that accepts a `sink` which is a function that your `subscribe` function can &#x22
+;push&#x22; events to.
+
+For example:
+
+```js
+var stream = Bacon.fromBinder(function(sink) {
+sink(&#x22;first value&#x22;)
+sink([new Bacon.Next(&#x22;2nd&#x22;), new Bacon.Next(&#x22;3rd&#x22;)])
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.fromCallback" id="apidoc.element.baconjs.Bacon.fromCallback">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>fromCallback
+        <span class="apidocSignatureSpan">(f)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">fromCallback = function (f) {
+  for (var _len2 = arguments.length, args = Array(_len2 &#x3e; 1 ? _len2 - 1 : 0), _key2 = 1; _key2 &#x3c; _len2; _key2++) {
+    args[_key2 - 1] = arguments[_key2];
+  }
+
+  if (typeof f === &#x22;object&#x22; &#x26;&#x26; args.length) {
+    var context = f;
+    var methodName = args[0];
+    f = function () {
+      return context[methodName].apply(context, arguments);
+    };
+    args = args.slice(1);
+  }
+  return wrapped.apply(undefined, [f].concat(args));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+events&#x27; parameters.
+
+```js
+Bacon.fromEvent(document.body, &#x22;click&#x22;).onValue(function() { alert(&#x22;Bacon!&#x22;) })
+```
+
+&#x3c;a name=&#x22;bacon-fromcallback&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.<span class="apidocCodeKeywordSpan">fromCallback</span>(f [, args...])`](#bacon-fromcallback &#x22;Bacon.fromCallback(f : (
+A -&#x3e; void) -&#x3e; void [, args...]) : EventStream[A]&#x22;) creates an EventStream from a function that
+accepts a callback. The function is supposed to call its callback just
+once. For example:
+
+```js
+Bacon.fromCallback(function(callback) {
+setTimeout(function() {
+  callback(&#x22;Bacon!&#x22;)
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.fromESObservable" id="apidoc.element.baconjs.Bacon.fromESObservable">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>fromESObservable
+        <span class="apidocSignatureSpan">(_observable)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">fromESObservable = function (_observable) {
+  var observable;
+  if (_observable[symbol(&#x22;observable&#x22;)]) {
+    observable = _observable[symbol(&#x22;observable&#x22;)]();
+  } else {
+    observable = _observable;
+  }
+
+  var desc = new Bacon.Desc(Bacon, &#x22;fromESObservable&#x22;, [observable]);
+  return new Bacon.EventStream(desc, function (sink) {
+    var cancel = observable.subscribe({
+      error: function () {
+        sink(new Bacon.Error());
+        sink(new Bacon.End());
+      },
+      next: function (value) {
+        sink(new Bacon.Next(value, true));
+      },
+      complete: function () {
+        sink(new Bacon.End());
+      }
+    });
+
+    if (cancel.unsubscribe) {
+      return function () {
+        cancel.unsubscribe();
+      };
+    } else {
+      return cancel;
+    }
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    fs = require(&#x27;fs&#x27;);
+var read = Bacon.fromNodeCallback(fs.readFile, &#x27;input.txt&#x27;);
+read.onError(function(error) { console.log(&#x22;Reading failed: &#x22; + error); });
+read.onValue(function(value) { console.log(&#x22;Read contents: &#x22; + value); });
+```
+
+&#x3c;a name=&#x22;bacon-fromesobservable&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.<span class="apidocCodeKeywordSpan">fromESObservable</span>(observable)`](#bacon-fromesobservable &#x22;Bacon.fromESObservable
+(observable : ESObservable[A]) : EventStream[A]&#x22;) creates an EventStream from an
+[ES Observable](https://github.com/tc39/proposal-observable). Input can be any
+ES Observable implementation including RxJS and Kefir.
+
+&#x3c;a name=&#x22;bacon-fromnodecallback-object&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.fromNodeCallback(object, methodName [, args...])`](#bacon-fromnodecallback-object &#x22;Bacon.fromNodeCallback(object, methodName
+ [, args...])&#x22;) a variant of fromNodeCallback which calls the named method of a given object.
+
+&#x3c;a name=&#x22;bacon-frompoll&#x22;&#x3e;&#x3c;/a&#x3e;
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.fromEvent" id="apidoc.element.baconjs.Bacon.fromEvent">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>fromEvent
+        <span class="apidocSignatureSpan">(target, eventName, eventTransformer)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">fromEvent = function (target, eventName, eventTransformer) {
+  var _findHandlerMethods = findHandlerMethods(target);
+
+  var sub = _findHandlerMethods[0];
+  var unsub = _findHandlerMethods[1];
+
+  var desc = new Bacon.Desc(Bacon, &#x22;fromEvent&#x22;, [target, eventName]);
+  return withDesc(desc, Bacon.fromBinder(function (handler) {
+    sub.call(target, eventName, handler);
+    return function () {
+      return unsub.call(target, eventName, handler);
+    };
+  }, eventTransformer));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+[`Bacon.fromPromise(promise [, abort] [, eventTransformer])`](#bacon-frompromise &#x22;Bacon.fromPromise(promise : Promise[A] [,
+abort : boolean][, eventTransformer]) : EventStream[A]&#x22;) creates an EventStream from a Promise object such as JQuery Ajax.
+This stream will contain a single value or an error, followed immediately by stream end.
+You can use the optional abort flag (i.e. ´fromPromise(p, true)´ to have the `abort` method of the given promise be called when
+all subscribers have been removed from the created stream.
+You can also pass an optional function that transforms the promise value into Events. The default is to transform the value into
+ `[new Bacon.Next(value), new Bacon.End()]`.
+Check out this [example](https://github.com/raimohanska/baconjs-examples/blob/master/resources/public/index.html).
+
+&#x3c;a name=&#x22;bacon-fromevent&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.<span class="apidocCodeKeywordSpan">fromEvent</span>(target, eventName [, eventTransformer])`](#bacon-fromevent &#x22;Bacon
+.fromEvent(target : EventTarget | EventEmitter, eventName : String [, eventTransformer]) : EventStream&#x22;) creates an EventStream
+ from events
+on a DOM EventTarget or Node.JS EventEmitter object, or an object that supports event listeners using `on`/`off` methods.
+You can also pass an optional function that transforms the emitted
+events&#x27; parameters.
+
+```js
+Bacon.fromEvent(document.body, &#x22;click&#x22;).onValue(function() { alert(&#x22;Bacon!&#x22;) })
+```
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.fromEventTarget" id="apidoc.element.baconjs.Bacon.fromEventTarget">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>fromEventTarget
+        <span class="apidocSignatureSpan">(target, eventName, eventTransformer)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">fromEventTarget = function (target, eventName, eventTransformer) {
+  var _findHandlerMethods = findHandlerMethods(target);
+
+  var sub = _findHandlerMethods[0];
+  var unsub = _findHandlerMethods[1];
+
+  var desc = new Bacon.Desc(Bacon, &#x22;fromEvent&#x22;, [target, eventName]);
+  return withDesc(desc, Bacon.fromBinder(function (handler) {
+    sub.call(target, eventName, handler);
+    return function () {
+      return unsub.call(target, eventName, handler);
+    };
+  }, eventTransformer));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.fromNodeCallback" id="apidoc.element.baconjs.Bacon.fromNodeCallback">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>fromNodeCallback
+        <span class="apidocSignatureSpan">(f)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">fromNodeCallback = function (f) {
+  for (var _len2 = arguments.length, args = Array(_len2 &#x3e; 1 ? _len2 - 1 : 0), _key2 = 1; _key2 &#x3c; _len2; _key2++) {
+    args[_key2 - 1] = arguments[_key2];
+  }
+
+  if (typeof f === &#x22;object&#x22; &#x26;&#x26; args.length) {
+    var context = f;
+    var methodName = args[0];
+    f = function () {
+      return context[methodName].apply(context, arguments);
+    };
+    args = args.slice(1);
+  }
+  return wrapped.apply(undefined, [f].concat(args));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+}, bacon, &#x27;rules&#x27;).log();
+```
+
+&#x3c;a name=&#x22;bacon-fromcallback-object&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.fromCallback(object, methodName [, args...])`](#bacon-fromcallback-object &#x22;Bacon.fromCallback(object, methodName [,
+args...]) : EventStream[A]&#x22;) a variant of fromCallback which calls the named method of a given object.
+
+&#x3c;a name=&#x22;bacon-fromnodecallback&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.<span class="apidocCodeKeywordSpan">fromNodeCallback</span>(f [, args...])`](#bacon-fromnodecallback &#x22;Bacon.fromNodeCallback
+(f : (E -&#x3e; A -&#x3e; void) -&#x3e; void [, args...]) : EventStream[A]&#x22;) behaves the same way as [`Bacon.fromCallback`](#
+bacon-fromcallback),
+except that it expects the callback to be called in the Node.js convention:
+`callback(error, data)`, where error is null if everything is fine. For example:
+
+```js
+var Bacon = require(&#x27;baconjs&#x27;).Bacon,
+    fs = require(&#x27;fs&#x27;);
+var read = Bacon.fromNodeCallback(fs.readFile, &#x27;input.txt&#x27;);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.fromPoll" id="apidoc.element.baconjs.Bacon.fromPoll">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>fromPoll
+        <span class="apidocSignatureSpan">(delay, poll)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">fromPoll = function (delay, poll) {
+  var desc = new Bacon.Desc(Bacon, &#x22;fromPoll&#x22;, [delay, poll]);
+  return withDesc(desc, Bacon.fromBinder(function (handler) {
+    var id = Bacon.scheduler.setInterval(handler, delay);
+    return function () {
+      return Bacon.scheduler.clearInterval(id);
+    };
+  }, poll));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+[ES Observable](https://github.com/tc39/proposal-observable). Input can be any
+ES Observable implementation including RxJS and Kefir.
+
+&#x3c;a name=&#x22;bacon-fromnodecallback-object&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.fromNodeCallback(object, methodName [, args...])`](#bacon-fromnodecallback-object &#x22;Bacon.fromNodeCallback(object, methodName
+ [, args...])&#x22;) a variant of fromNodeCallback which calls the named method of a given object.
+
+&#x3c;a name=&#x22;bacon-frompoll&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.<span class="apidocCodeKeywordSpan">fromPoll</span>(interval, f)`](#bacon-frompoll &#x22;Bacon.fromPoll(interval : Number
+, f : -&#x3e; Event[A]) : EventStream[A]&#x22;) polls given function with given interval.
+Function should return Events: either [`Bacon.Next`](#bacon-next) or [`Bacon.End`](#bacon-end). Polling occurs only
+when there are subscribers to the stream. Polling ends permanently when
+`f` returns [`Bacon.End`](#bacon-end).
+
+&#x3c;a name=&#x22;bacon-once&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.once(value)`](#bacon-once &#x22;Bacon.once(value : Event[A] | A) : EventStream[A]&#x22;) creates an EventStream that delivers
+ the given
+single value for the first subscriber. The stream will end immediately
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.fromPromise" id="apidoc.element.baconjs.Bacon.fromPromise">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>fromPromise
+        <span class="apidocSignatureSpan">(promise, abort)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">fromPromise = function (promise, abort) {
+  var eventTransformer = arguments.length &#x3c;= 2 || arguments[2] === undefined ? valueAndEnd : arguments[2];
+
+  return withDesc(new Bacon.Desc(Bacon, &#x22;fromPromise&#x22;, [promise]), Bacon.fromBinder(function (handler) {
+    var bound = promise.then(handler, function (e) {
+      return handler(new Error(e));
+    });
+    if (bound &#x26;&#x26; typeof bound.done === &#x22;function&#x22;) {
+      bound.done();
+    }
+
+    if (abort) {
+      return function () {
+        if (typeof promise.abort === &#x22;function&#x22;) {
+          return promise.abort();
+        }
+      };
+    } else {
+      return function () {};
+    }
+  }, eventTransformer));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+```js
+$(&#x22;#my-div&#x22;).asEventStream(&#x22;click&#x22;, &#x22;.more-specific-selector&#x22;)
+$(&#x22;#my-div&#x22;).asEventStream(&#x22;click&#x22;, &#x22;.more-specific-selector&#x22;, function(event, args) { return args
+[0] })
+$(&#x22;#my-div&#x22;).asEventStream(&#x22;click&#x22;, function(event, args) { return args[0] })
+```
+
+&#x3c;a name=&#x22;bacon-frompromise&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.<span class="apidocCodeKeywordSpan">fromPromise</span>(promise [, abort] [, eventTransformer])`](#bacon-frompromise &#x22
+;Bacon.fromPromise(promise : Promise[A] [, abort : boolean][, eventTransformer]) : EventStream[A]&#x22;) creates an EventStream
+from a Promise object such as JQuery Ajax.
+This stream will contain a single value or an error, followed immediately by stream end.
+You can use the optional abort flag (i.e. ´fromPromise(p, true)´ to have the `abort` method of the given promise be called when
+all subscribers have been removed from the created stream.
+You can also pass an optional function that transforms the promise value into Events. The default is to transform the value into
+ `[new Bacon.Next(value), new Bacon.End()]`.
+Check out this [example](https://github.com/raimohanska/baconjs-examples/blob/master/resources/public/index.html).
+
+&#x3c;a name=&#x22;bacon-fromevent&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.fromEvent(target, eventName [, eventTransformer])`](#bacon-fromevent &#x22;Bacon.fromEvent(target : EventTarget | EventEmitter
+, eventName : String [, eventTransformer]) : EventStream&#x22;) creates an EventStream from events
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.groupSimultaneous" id="apidoc.element.baconjs.Bacon.groupSimultaneous">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>groupSimultaneous
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">groupSimultaneous = function () {
+  for (var _len5 = arguments.length, streams = Array(_len5), _key5 = 0; _key5 &#x3c; _len5; _key5++) {
+    streams[_key5] = arguments[_key5];
+  }
+
+  if (streams.length === 1 &#x26;&#x26; isArray(streams[0])) {
+    streams = streams[0];
+  }
+  var sources = (function () {
+    var result = [];
+    for (var i = 0, s; i &#x3c; streams.length; i++) {
+      s = streams[i];
+      result.push(new BufferingSource(s));
+    }
+    return result;
+  })();
+  return withDesc(new Bacon.Desc(Bacon, &#x22;groupSimultaneous&#x22;, streams), Bacon.when(sources, function () {
+    for (var _len6 = arguments.length, xs = Array(_len6), _key6 = 0; _key6 &#x3c; _len6; _key6++) {
+      xs[_key6] = arguments[_key6];
+    }
+
+    return xs;
+  }));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.interval" id="apidoc.element.baconjs.Bacon.interval">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>interval
+        <span class="apidocSignatureSpan">(delay)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">interval = function (delay) {
+  var value = arguments.length &#x3c;= 1 || arguments[1] === undefined ? {} : arguments[1];
+
+  return withDesc(new Bacon.Desc(Bacon, &#x22;interval&#x22;, [delay, value]), Bacon.fromPoll(delay, function () {
+    return nextEvent(value);
+  }));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+[`Bacon.fromArray(values)`](#bacon-fromarray &#x22;Bacon.fromArray(values : Array[Event[A] | A]) : EventStream[A]&#x22;) creates
+ an EventStream that delivers the given
+series of values (given as array) to the first subscriber. The stream ends after these
+values have been delivered. You can also send [`Bacon.Error`](#bacon-error) events, or
+any combination of pure values and error events like this:
+`Bacon.fromArray([1, new Bacon.Error()])
+
+&#x3c;a name=&#x22;bacon-interval&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.<span class="apidocCodeKeywordSpan">interval</span>(interval, value)`](#bacon-interval &#x22;Bacon.interval(interval : Number
+, value : A) : EventStream[A]&#x22;) repeats the single element
+indefinitely with the given interval (in milliseconds)
+
+&#x3c;a name=&#x22;bacon-sequentially&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.sequentially(interval, values)`](#bacon-sequentially &#x22;Bacon.sequentially(interval : Number, values : Array[A]) : EventStream
+[A]&#x22;) creates a stream containing given
+values (given as array). Delivered with given interval in milliseconds.
+
+&#x3c;a name=&#x22;bacon-repeatedly&#x22;&#x3e;&#x3c;/a&#x3e;
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.later" id="apidoc.element.baconjs.Bacon.later">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>later
+        <span class="apidocSignatureSpan">(delay, value)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">later = function (delay, value) {
+  return withDesc(new Bacon.Desc(Bacon, &#x22;later&#x22;, [delay, value]), Bacon.fromBinder(function (sink) {
+    var sender = function () {
+      return sink([value, endEvent()]);
+    };
+    var id = Bacon.scheduler.setTimeout(sender, delay);
+    return function () {
+      return Bacon.scheduler.clearTimeout(id);
+    };
+  }));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+The example will produce values 0, 1 and 2.
+
+&#x3c;a name=&#x22;bacon-never&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.never()`](#bacon-never &#x22;Bacon.never() : EventStream&#x22;) creates an EventStream that immediately ends.
+
+&#x3c;a name=&#x22;bacon-later&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.<span class="apidocCodeKeywordSpan">later</span>(delay, value)`](#bacon-later &#x22;Bacon.later(delay : Number, value :
+A) : EventStream[A]&#x22;) creates a single-element stream that
+produces given value after given delay (milliseconds).
+
+&#x3c;a name=&#x22;new-bacon-eventstream&#x22;&#x3e;&#x3c;/a&#x3e;
+[`new Bacon.EventStream(subscribe)`](#new-bacon-eventstream &#x22;new Bacon.EventStream(subscribe)&#x22;) creates an [`EventStream
+`](#eventstream) with the given subscribe function.
+
+[`property.changes`](#property-changes) creates a stream of changes to the [`Property`](#property). The stream *does not* include
+an event for the current value of the Property at the time this method was called.
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.mergeAll" id="apidoc.element.baconjs.Bacon.mergeAll">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>mergeAll
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">mergeAll = function () {
+  var streams = argumentsToObservables(arguments);
+  if (streams.length) {
+    return new EventStream(new Bacon.Desc(Bacon, &#x22;mergeAll&#x22;, streams), function (sink) {
+      var ends = 0;
+      var smartSink = function (obs) {
+        return function (unsubBoth) {
+          return obs.dispatcher.subscribe(function (event) {
+            if (event.isEnd()) {
+              ends++;
+              if (ends === streams.length) {
+                return sink(endEvent());
+              } else {
+                return Bacon.more;
+              }
+            } else {
+              var reply = sink(event);
+              if (reply === Bacon.noMore) {
+                unsubBoth();
+              }
+              return reply;
+            }
+          });
+        };
+      };
+      var sinks = _.map(smartSink, streams);
+      return new Bacon.CompositeUnsubscribe(sinks).unsubscribe;
+    });
+  } else {
+    return Bacon.never();
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+If you need the result as an [`EventStream`](#eventstream) you might want to use [`property.changes()`](#property-changes)
+
+```js
+Bacon.combineWith(function(v1,v2) { .. }, stream1, stream2).changes()
+```
+
+&#x3c;a name=&#x22;bacon-mergeall&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.<span class="apidocCodeKeywordSpan">mergeAll</span>(streams)`](#bacon-mergeall &#x22;Bacon.mergeAll(streams)&#x22;) merges
+ given array of EventStreams.
+`Bacon.mergeAll(stream1, stream2 ...)` merges given EventStreams.
+
+&#x3c;a name=&#x22;bacon-zipasarray&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.zipAsArray(streams)`](#bacon-zipasarray &#x22;Bacon.zipAsArray(streams)&#x22;) zips the array of EventStreams / Properties
+ in to a new
+EventStream that will have an array of values from each source as
+its value. Zipping means that events from each source are combined
+pairwise so that the 1st event from each source is published first, then
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.never" id="apidoc.element.baconjs.Bacon.never">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>never
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">never = function () {
+  return new EventStream(describe(Bacon, &#x22;never&#x22;), function (sink) {
+    sink(endEvent());
+    return nop;
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  }
+}).log()
+```
+
+The example will produce values 0, 1 and 2.
+
+&#x3c;a name=&#x22;bacon-never&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.<span class="apidocCodeKeywordSpan">never</span>()`](#bacon-never &#x22;Bacon.never() : EventStream&#x22;) creates an EventStream
+ that immediately ends.
+
+&#x3c;a name=&#x22;bacon-later&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.later(delay, value)`](#bacon-later &#x22;Bacon.later(delay : Number, value : A) : EventStream[A]&#x22;) creates a single
+-element stream that
+produces given value after given delay (milliseconds).
+
+&#x3c;a name=&#x22;new-bacon-eventstream&#x22;&#x3e;&#x3c;/a&#x3e;
+[`new Bacon.EventStream(subscribe)`](#new-bacon-eventstream &#x22;new Bacon.EventStream(subscribe)&#x22;) creates an [`EventStream
+`](#eventstream) with the given subscribe function.
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.onValues" id="apidoc.element.baconjs.Bacon.onValues">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>onValues
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">onValues = function () {
+  return Bacon.combineAsArray(Array.prototype.slice.call(arguments, 0, arguments.length - 1)).onValues(arguments[arguments.length
+ - 1]);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+received, instead of [`Event`](#event) objects.
+The [Function Construction rules](#function-construction-rules) below apply here.
+Just like `subscribe`, this method returns a function for unsubscribing.
+`stream.onValue` and `property.onValue` behave similarly, except that the latter also
+pushes the initial value of the property, in case there is one.
+
+&#x3c;a name=&#x22;observable-onvalues&#x22;&#x3e;&#x3c;/a&#x3e;
+[`observable.<span class="apidocCodeKeywordSpan">onValues</span>(f)`](#observable-onvalues &#x22;observable.onValues(f)&#x22;) like
+ [`onValue`](#stream-onvalue), but splits the value (assuming its an
+array) as function arguments to `f`.
+
+&#x3c;a name=&#x22;observable-onerror&#x22;&#x3e;&#x3c;/a&#x3e;
+[`observable.onError(f)`](#observable-onerror &#x22;observable.onError(@ : Observable[A], f : Error -&#x3e; void) : Unsubscriber
+&#x22;) subscribes a callback to error events. The function will be called for each error in the stream.
+Just like `subscribe`, this method returns a function for unsubscribing.
+
+&#x3c;a name=&#x22;observable-onend&#x22;&#x3e;&#x3c;/a&#x3e;
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.once" id="apidoc.element.baconjs.Bacon.once">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>once
+        <span class="apidocSignatureSpan">(value)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">once = function (value) {
+  return new EventStream(new Desc(Bacon, &#x22;once&#x22;, [value]), function (sink) {
+    sink(toEvent(value));
+    sink(endEvent());
+    return nop;
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+&#x3c;a name=&#x22;bacon-frompoll&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.fromPoll(interval, f)`](#bacon-frompoll &#x22;Bacon.fromPoll(interval : Number, f : -&#x3e; Event[A]) : EventStream[A]&#
+x22;) polls given function with given interval.
+Function should return Events: either [`Bacon.Next`](#bacon-next) or [`Bacon.End`](#bacon-end). Polling occurs only
+when there are subscribers to the stream. Polling ends permanently when
+`f` returns [`Bacon.End`](#bacon-end).
+
+&#x3c;a name=&#x22;bacon-once&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.<span class="apidocCodeKeywordSpan">once</span>(value)`](#bacon-once &#x22;Bacon.once(value : Event[A] | A) : EventStream
+[A]&#x22;) creates an EventStream that delivers the given
+single value for the first subscriber. The stream will end immediately
+after this value. You can also send an [`Bacon.Error`](#bacon-error) event instead of a
+value: `Bacon.once(new Bacon.Error(&#x22;fail&#x22;))`.
+
+&#x3c;a name=&#x22;bacon-fromarray&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.fromArray(values)`](#bacon-fromarray &#x22;Bacon.fromArray(values : Array[Event[A] | A]) : EventStream[A]&#x22;) creates
+ an EventStream that delivers the given
+series of values (given as array) to the first subscriber. The stream ends after these
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.repeat" id="apidoc.element.baconjs.Bacon.repeat">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>repeat
+        <span class="apidocSignatureSpan">(generator)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">repeat = function (generator) {
+  var index = 0;
+  return Bacon.fromBinder(function (sink) {
+    var flag = false;
+    var reply = Bacon.more;
+    var unsub = function () {};
+    function handleEvent(event) {
+      if (event.isEnd()) {
+        if (!flag) {
+          return flag = true;
+        } else {
+          return subscribeNext();
+        }
+      } else {
+        return reply = sink(event);
+      }
+    };
+    function subscribeNext() {
+      var next;
+      flag = true;
+      while (flag &#x26;&#x26; reply !== Bacon.noMore) {
+        next = generator(index++);
+        flag = false;
+        if (next) {
+          unsub = next.subscribeInternal(handleEvent);
+        } else {
+          sink(endEvent());
+        }
+      }
+      return flag = true;
+    };
+    subscribeNext();
+    return function () {
+      return unsub();
+    };
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+&#x3c;a name=&#x22;bacon-repeatedly&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.repeatedly(interval, values)`](#bacon-repeatedly &#x22;Bacon.repeatedly(interval : Number, values : Array[A]) : EventStream
+[A]&#x22;) repeats given elements indefinitely
+with given interval in milliseconds. For example, `repeatedly(10, [1,2,3])`
+would lead to `1,2,3,1,2,3...` to be repeated indefinitely.
+
+&#x3c;a name=&#x22;bacon-repeat&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.<span class="apidocCodeKeywordSpan">repeat</span>(fn)`](#bacon-repeat &#x22;Bacon.repeat(fn: Number -&#x3e; Observable[A
+]): EventStream[A]&#x22;) Calls generator function which is expected to return an observable. The returned EventStream contains
+values and errors from the spawned observable. When the spawned observable ends, the generator is called
+again to spawn a new observable.
+
+This is repeated until the generator returns a falsy value
+(such as `undefined` or `false`).
+
+The generator function is called with one argument — iteration number starting from `0`.
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.repeatedly" id="apidoc.element.baconjs.Bacon.repeatedly">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>repeatedly
+        <span class="apidocSignatureSpan">(delay, values)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">repeatedly = function (delay, values) {
+  var index = 0;
+  return withDesc(new Bacon.Desc(Bacon, &#x22;repeatedly&#x22;, [delay, values]), Bacon.fromPoll(delay, function () {
+    return values[index++ % values.length];
+  }));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+indefinitely with the given interval (in milliseconds)
+
+&#x3c;a name=&#x22;bacon-sequentially&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.sequentially(interval, values)`](#bacon-sequentially &#x22;Bacon.sequentially(interval : Number, values : Array[A]) : EventStream
+[A]&#x22;) creates a stream containing given
+values (given as array). Delivered with given interval in milliseconds.
+
+&#x3c;a name=&#x22;bacon-repeatedly&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.<span class="apidocCodeKeywordSpan">repeatedly</span>(interval, values)`](#bacon-repeatedly &#x22;Bacon.repeatedly(interval
+ : Number, values : Array[A]) : EventStream[A]&#x22;) repeats given elements indefinitely
+with given interval in milliseconds. For example, `repeatedly(10, [1,2,3])`
+would lead to `1,2,3,1,2,3...` to be repeated indefinitely.
+
+&#x3c;a name=&#x22;bacon-repeat&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.repeat(fn)`](#bacon-repeat &#x22;Bacon.repeat(fn: Number -&#x3e; Observable[A]): EventStream[A]&#x22;) Calls generator function
+ which is expected to return an observable. The returned EventStream contains
+values and errors from the spawned observable. When the spawned observable ends, the generator is called
+again to spawn a new observable.
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.retry" id="apidoc.element.baconjs.Bacon.retry">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>retry
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">retry = function (options) {
+  if (!_.isFunction(options.source)) {
+    throw new Exception(&#x22;&#x27;source&#x27; option has to be a function&#x22;);
+  }
+  var source = options.source;
+  var retries = options.retries || 0;
+  var retriesDone = 0;
+  var delay = options.delay || function () {
+    return 0;
+  };
+  var isRetryable = options.isRetryable || function () {
+    return true;
+  };
+  var finished = false;
+  var error = null;
+
+  return withDesc(new Bacon.Desc(Bacon, &#x22;retry&#x22;, [options]), Bacon.repeat(function (count) {
+    function valueStream() {
+      return source(count).endOnError().withHandler(function (event) {
+        if (event.isError()) {
+          error = event;
+          if (!(isRetryable(error.error) &#x26;&#x26; (retries === 0 || retriesDone &#x3c; retries))) {
+            finished = true;
+            return this.push(event);
+          }
+        } else {
+          if (event.hasValue()) {
+            error = null;
+            finished = true;
+          }
+          return this.push(event);
+        }
+      });
+    }
+
+    if (finished) {
+      return null;
+    } else if (error) {
+      var context = {
+        error: error.error,
+        retriesDone: retriesDone
+      };
+      var pause = Bacon.later(delay(context)).filter(false);
+      retriesDone++;
+      return pause.concat(Bacon.once().flatMap(valueStream));
+    } else {
+      return valueStream();
+    }
+  }));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+Bacon.js doesn&#x27;t currently generate any [`Error`](#bacon-error) events itself (except when
+converting errors using Bacon.fromPromise). Error
+events definitely would be generated by streams derived from IO sources
+such as AJAX calls.
+
+&#x3c;a name=&#x22;bacon-retry&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.<span class="apidocCodeKeywordSpan">retry</span>(options)`](#bacon-retry &#x22;Bacon.retry(options)&#x22;) is used to retry
+ the call when there is an [`Error`](#bacon-error) event in the stream produced by the `source` function.
+
+The two required option parameters are:
+
+* `source`, a function that produces an Observable. The function gets attempt number (starting from zero) as its argument.
+* `retries`, the number of times to retry the `source` function _in addition to the initial attempt_. Use the value o (zero) for
+ retrying indefinitely.
+
+Additionally, one may pass in one or both of the following callbacks:
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.sequentially" id="apidoc.element.baconjs.Bacon.sequentially">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>sequentially
+        <span class="apidocSignatureSpan">(delay, values)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">sequentially = function (delay, values) {
+  var index = 0;
+  return withDesc(new Bacon.Desc(Bacon, &#x22;sequentially&#x22;, [delay, values]), Bacon.fromPoll(delay, function () {
+    var value = values[index++];
+    if (index &#x3c; values.length) {
+      return value;
+    } else if (index === values.length) {
+      return [value, endEvent()];
+    } else {
+      return endEvent();
+    }
+  }));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+`Bacon.fromArray([1, new Bacon.Error()])
+
+&#x3c;a name=&#x22;bacon-interval&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.interval(interval, value)`](#bacon-interval &#x22;Bacon.interval(interval : Number, value : A) : EventStream[A]&#x22;) repeats
+ the single element
+indefinitely with the given interval (in milliseconds)
+
+&#x3c;a name=&#x22;bacon-sequentially&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.<span class="apidocCodeKeywordSpan">sequentially</span>(interval, values)`](#bacon-sequentially &#x22;Bacon.sequentially
+(interval : Number, values : Array[A]) : EventStream[A]&#x22;) creates a stream containing given
+values (given as array). Delivered with given interval in milliseconds.
+
+&#x3c;a name=&#x22;bacon-repeatedly&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.repeatedly(interval, values)`](#bacon-repeatedly &#x22;Bacon.repeatedly(interval : Number, values : Array[A]) : EventStream
+[A]&#x22;) repeats given elements indefinitely
+with given interval in milliseconds. For example, `repeatedly(10, [1,2,3])`
+would lead to `1,2,3,1,2,3...` to be repeated indefinitely.
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.spy" id="apidoc.element.baconjs.Bacon.spy">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>spy
+        <span class="apidocSignatureSpan">(spy)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">spy = function (spy) {
+  return spies.push(spy);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+For example, for `Bacon.fromArray([1,2,3]).desc` you&#x27;d get
+
+    { context: Bacon, method: &#x22;fromArray&#x22;, args: [[1,2,3]] }
+
+Notice that this is a field, not a function.
+
+&#x3c;a name=&#x22;bacon-spy&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.<span class="apidocCodeKeywordSpan">spy</span>(f)`](#bacon-spy &#x22;Bacon.spy(f)&#x22;)
+Adds your function as a &#x22;spy&#x22; that will get notified on all new Observables.
+This will allow a visualization/analytis tool to spy on all Bacon activity.
+
+Cleaning up
+-----------
+
+As described above, a subscriber can signal the loss of interest in new events
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.toString" id="apidoc.element.baconjs.Bacon.toString">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">toString = function () {
+  return &#x22;Bacon&#x22;;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+use this data recursively to create a string representation for the observable. This method
+is probably useful for Bacon core / library / plugin development only.
+
+For example:
+
+    var src = Bacon.once(1)
+    var obs = src.map(function(x) { return -x })
+    console.log(obs.<span class="apidocCodeKeywordSpan">toString</span>())
+    --&#x3e; Bacon.once(1).map(function)
+    obs.withDescription(src, &#x22;times&#x22;, -1)
+    console.log(obs.toString())
+    --&#x3e; Bacon.once(1).times(-1)
+
+&#x3c;a name=&#x22;observable-groupby&#x22;&#x3e;&#x3c;/a&#x3e;
+[`observable.groupBy(keyF [, limitF])`](#observable-groupby &#x22;observable.groupBy(@ : Observable[A], keyF[, limitF]) : Observable
+[Observable[A]]&#x22;) Groups stream events to new streams by `keyF`. Optional `limitF` can be provided to limit grouped
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.try" id="apidoc.element.baconjs.Bacon.try">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>try
+        <span class="apidocSignatureSpan">(f)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">try = function (f) {
+  return function (value) {
+    try {
+      return Bacon.once(f(value));
+    } catch (e) {
+      return new Bacon.Error(e);
+    }
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+```
+
+Note also that Bacon.js combinators do not catch errors that are thrown.
+Especially [`map`](#observable-map) doesn&#x27;t do so. If you want to map things
+and wrap caught errors into Error events, you can do the following:
+
+```js
+wrapped = source.flatMap(Bacon.<span class="apidocCodeKeywordSpan">try</span>(dangerousOperation))
+```
+
+For example, you can use `Bacon.try` to handle JSON parse errors:
+
+```js
+var jsonStream = Bacon
+.once(&#x27;{&#x22;this is invalid json&#x22;&#x27;)
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.update" id="apidoc.element.baconjs.Bacon.update">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>update
+        <span class="apidocSignatureSpan">(initial)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">update = function (initial) {
+  function lateBindFirst(f) {
+    return function () {
+      for (var _len22 = arguments.length, args = Array(_len22), _key22 = 0; _key22 &#x3c; _len22; _key22++) {
+        args[_key22] = arguments[_key22];
+      }
+
+      return function (i) {
+        return f.apply(undefined, [i].concat(args));
+      };
+    };
+  }
+
+  for (var _len21 = arguments.length, patterns = Array(_len21 &#x3e; 1 ? _len21 - 1 : 0), _key21 = 1; _key21 &#x3c; _len21; _key21++) {
+    patterns[_key21 - 1] = arguments[_key21];
+  }
+
+  var i = patterns.length - 1;
+  while (i &#x3e; 0) {
+    if (!(patterns[i] instanceof Function)) {
+      patterns[i] = _.always(patterns[i]);
+    }
+    patterns[i] = lateBindFirst(patterns[i]);
+    i = i - 2;
+  }
+  return withDesc(new Bacon.Desc(Bacon, &#x22;update&#x22;, [initial].concat(patterns)), Bacon.when.apply(Bacon, patterns).scan(initial, function
+ (x, f) {
+    return f(x);
+  }));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+convert it into an EventStream using [`property.changes()`](#property-changes) or [`property.toEventStream()`](#property-toeventstream
+)
+
+&#x3c;a name=&#x22;bacon-update&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.update`](#bacon-update &#x22;Bacon.update&#x22;) creates a Property from an initial value and updates the value based on
+ multiple inputs.
+The inputs are defined similarly to [`Bacon.when`](#bacon-when), like this:
+
+```js
+var result = Bacon.<span class="apidocCodeKeywordSpan">update</span>(
+  initial,
+  [x,y,z], function(previous,x,y,z) { ... },
+  [x,y],   function(previous,x,y) { ... })
+```
+
+As input, each function above will get the previous value of the `result` Property, along with values from the listed Observables
+.
+The value returned by the function will be used as the next value of `result`.
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.when" id="apidoc.element.baconjs.Bacon.when">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>when
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">when = function () {
+  if (arguments.length === 0) {
+    return Bacon.never();
+  }
+  var len = arguments.length;
+  var usage = &#x22;when: expecting arguments in the form (Observable+,function)+&#x22;;
+
+  assert(usage, len % 2 === 0);
+  var sources = [];
+  var pats = [];
+  var i = 0;
+  var patterns = [];
+  while (i &#x3c; len) {
+    patterns[i] = arguments[i];
+    patterns[i + 1] = arguments[i + 1];
+    var patSources = _.toArray(arguments[i]);
+    var f = constantToFunction(arguments[i + 1]);
+    var pat = { f: f, ixs: [] };
+    var triggerFound = false;
+    for (var j = 0, s; j &#x3c; patSources.length; j++) {
+      s = patSources[j];
+      var index = _.indexOf(sources, s);
+      if (!triggerFound) {
+        triggerFound = Source.isTrigger(s);
+      }
+      if (index &#x3c; 0) {
+        sources.push(s);
+        index = sources.length - 1;
+      }
+      for (var k = 0, ix; k &#x3c; pat.ixs.length; k++) {
+        ix = pat.ixs[k];
+        if (ix.index === index) {
+          ix.count++;
+        }
+      }
+      pat.ixs.push({ index: index, count: 1 });
+    }
+
+    assert(&#x22;At least one EventStream required&#x22;, triggerFound || !patSources.length);
+
+    if (patSources.length &#x3e; 0) {
+      pats.push(pat);
+    }
+    i = i + 2;
+  }
+
+  if (!sources.length) {
+    return Bacon.never();
+  }
+
+  sources = _.map(Source.fromObservable, sources);
+  var needsBarrier = _.any(sources, function (s) {
+    return s.flatten;
+  }) &#x26;&#x26; containsDuplicateDeps(_.map(function (s) {
+    return s.obs;
+  }, sources));
+
+  var desc = new Bacon.Desc(Bacon, &#x22;when&#x22;, patterns);
+  var resultStream = new EventStream(desc, function (sink) {
+    var triggers = [];
+    var ends = false;
+    var match = function (p) {
+      for (var i1 = 0, i; i1 &#x3c; p.ixs.length; i1++) {
+        i = p.ixs[i1];
+        if (!sources[i.index].hasAtLeast(i.count)) {
+          return false;
+        }
+      }
+      return true;
+    };
+    var cannotSync = function (source) {
+      return !source.sync || source.ended;
+    };
+    var cannotMatch = function (p) {
+      for (var i1 = 0, i; i1 &#x3c; p.ixs.length; i1++) {
+        i = p.ixs[i1];
+        if (!sources[i.index].mayHave(i.count)) {
+          return true;
+        }
+      }
+    };
+    var nonFlattened = function (trigger) {
+      return !trigger.source.flatten;
+    };
+    var part = function (source) {
+      return function (unsubAll) {
+        var flushLater = function () {
+          return UpdateBarrier.whenDoneWith(resultStream, flush);
+        };
+        var flushWhileTriggers = function () {
+          if (triggers.length &#x3e; 0) {
+            var reply = Bacon.more;
+            var trigger = triggers.pop();
+            for (var i1 = 0, p; i1 &#x3c; pats.length; i1++) {
+              p = pats[i1];
+              if (match(p)) {
+                var events = (function () {
+                  var result = [];
+                  for (var i2 = 0, i; i2 &#x3c; p.ixs.length; i2++) {
+                    i = p.ixs[i2];
+                    result.push(sources[i.index].consume());
+                  }
+                  return result;
+                })();
+                reply = sink(trigger.e.apply(function () {
+                  var _p;
+
+                  var values = (function () {
+                    var result = [];
+                    for (var i2 = 0, event; i2 &#x3c; events.length; i2++) {
+                      event = events[i2];
+                      result.push(event.value());
+                    }
+                    return result;
+                  })();
+
+                  return (_p = p).f.apply(_p, values);
+                }));
+                if (triggers.length) {
+                  triggers = _.filter(nonFlattened, triggers);
+                }
+                if (reply === Bacon.noMore) {
+                  return reply;
+                } else {
+                  return flushWhileTriggers();
+                }
+              }
+            }
+          } else {
+            return Bacon.more;
+          }
+        };
+        var flush = function () {
+          var reply = flushWhileTriggers();
+          if (ends) {
+            if (_.all(sources, cannotSync) || _.all(pats, cannotMatch)) { ...</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+&#x3c;a name=&#x22;bacon-when&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.when`](#bacon-when &#x22;Bacon.when&#x22;) Consider implementing a game with discrete time ticks. We want to
+handle key-events synchronized on tick-events, with at most one key
+event handled per tick. If there are no key events, we want to just
+process a tick.
+
+```js
+  Bacon.<span class="apidocCodeKeywordSpan">when</span>(
+    [tick, keyEvent], function(_, k) { handleKeyEvent(k); return handleTick(); },
+    [tick], handleTick)
+```
+
+Order is important here. If the [tick] patterns had been written
+first, this would have been tried first, and preferred at each tick.
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.zipAsArray" id="apidoc.element.baconjs.Bacon.zipAsArray">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>zipAsArray
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">zipAsArray = function () {
+  for (var _len23 = arguments.length, args = Array(_len23), _key23 = 0; _key23 &#x3c; _len23; _key23++) {
+    args[_key23] = arguments[_key23];
+  }
+
+  var streams = argumentsToObservables(args);
+  return withDesc(new Bacon.Desc(Bacon, &#x22;zipAsArray&#x22;, streams), Bacon.zipWith(streams, function () {
+    for (var _len24 = arguments.length, xs = Array(_len24), _key24 = 0; _key24 &#x3c; _len24; _key24++) {
+      xs[_key24] = arguments[_key24];
+    }
+
+    return xs;
+  }));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+```
+
+&#x3c;a name=&#x22;bacon-mergeall&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.mergeAll(streams)`](#bacon-mergeall &#x22;Bacon.mergeAll(streams)&#x22;) merges given array of EventStreams.
+`Bacon.mergeAll(stream1, stream2 ...)` merges given EventStreams.
+
+&#x3c;a name=&#x22;bacon-zipasarray&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.<span class="apidocCodeKeywordSpan">zipAsArray</span>(streams)`](#bacon-zipasarray &#x22;Bacon.zipAsArray(streams)&#x22;)
+zips the array of EventStreams / Properties in to a new
+EventStream that will have an array of values from each source as
+its value. Zipping means that events from each source are combined
+pairwise so that the 1st event from each source is published first, then
+the 2nd event from each. The results will be published as soon as there
+is a value from each source.
+
+Be careful not to have too much &#x22;drift&#x22; between streams. If one stream
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.baconjs.Bacon.zipWith" id="apidoc.element.baconjs.Bacon.zipWith">
+        function <span class="apidocSignatureSpan">baconjs.Bacon.</span>zipWith
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">zipWith = function () {
+  for (var _len25 = arguments.length, args = Array(_len25), _key25 = 0; _key25 &#x3c; _len25; _key25++) {
+    args[_key25] = arguments[_key25];
+  }
+
+  var observablesAndFunction = argumentsToObservablesAndFunction(args);
+  var streams = observablesAndFunction[0];
+  var f = observablesAndFunction[1];
+
+  streams = _.map(function (s) {
+    return s.toEventStream();
+  }, streams);
+  return withDesc(new Bacon.Desc(Bacon, &#x22;zipWith&#x22;, [f].concat(streams)), Bacon.when(streams, f));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+```
+
+&#x3c;a name=&#x22;bacon-zipasarray-multiple-streams&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.zipAsArray(stream1, stream2...)`](#bacon-zipasarray-multiple-streams &#x22;Bacon.zipAsArray(stream1, stream2...)&#x22;)
+just like above, but with sources
+provided as a list of arguments as opposed to a single array.
+
+&#x3c;a name=&#x22;bacon-zipwith&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.<span class="apidocCodeKeywordSpan">zipWith</span>(streams, f)`](#bacon-zipwith &#x22;Bacon.zipWith(streams, f)&#x22;) like
+ [`zipAsArray`](#bacon-zipasarray) but uses the given n-ary
+function to combine the n values from n sources, instead of returning them in an Array.
+
+&#x3c;a name=&#x22;bacon-zipwith-f-first&#x22;&#x3e;&#x3c;/a&#x3e;
+[`Bacon.zipWith(f, streams)`](#bacon-zipwith-f-first &#x22;Bacon.zipWith(f, streams)&#x22;) like [`zipAsArray`](#bacon-zipasarray
+) but uses the given n-ary
+function to combine the n values from n sources, instead of returning them in an Array.
+
+&#x3c;a name=&#x22;bacon-zipwith-f-first-varargs&#x22;&#x3e;&#x3c;/a&#x3e;
+...</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.baconjs.Bus" id="apidoc.module.baconjs.Bus">module baconjs.Bus</a></h1>
 
 
@@ -4572,7 +6989,28 @@ mechanism in the
     <ul>
     <li>description and source-code<pre class="apidocCodePre">push = function (value) {
   if (!this.ended &#x26;&#x26; typeof this.sink === &#x22;function&#x22;) {
-    return this.sink(nextEvent(value));
+    var rootPush = !this.pushing;
+    if (!rootPush) {
+      if (!this.pushQueue) this.pushQueue = [];
+      this.pushQueue.push(value);
+
+      return;
+    }
+    this.pushing = true;
+    try {
+      return this.sink(nextEvent(value));
+    } finally {
+      if (rootPush &#x26;&#x26; this.pushQueue) {
+        var i = 0;
+        while (i &#x3c; this.pushQueue.length) {
+          var value = this.pushQueue[i];
+          this.sink(nextEvent(value));
+          i++;
+        }
+        this.pushQueue = null;
+      }
+      this.pushing = false;
+    }
   }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
@@ -6020,7 +8458,7 @@ The Property will get its first actual value from the stream, and after that it&
       }
     });
     return function () {
-      return unsubLeft(), unsubRight();
+      return (unsubLeft(), unsubRight());
     };
   });
 }</pre></li>
@@ -9723,16 +12161,28 @@ this.push(new Bacon.Error(&#x22;Value below zero&#x22;));
     <h2>
         <a href="#apidoc.element.baconjs.UpdateBarrier.afterTransaction" id="apidoc.element.baconjs.UpdateBarrier.afterTransaction">
         function <span class="apidocSignatureSpan">baconjs.UpdateBarrier.</span>afterTransaction
-        <span class="apidocSignatureSpan">(f)</span>
+        <span class="apidocSignatureSpan">(obs, f)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">afterTransaction = function (f) {
-  if (rootEvent) {
-    return afters.push(f);
+    <li>description and source-code<pre class="apidocCodePre">afterTransaction = function (obs, f) {
+  if (rootEvent || aftersStack.length) {
+    ensureStackHeight(1);
+    var stackIndexForThisObs = 0;
+    while (stackIndexForThisObs &#x3c; aftersStackHeight - 1) {
+      if (containsObs(obs, aftersStack[stackIndexForThisObs][0])) {
+        break;
+      }
+      stackIndexForThisObs++;
+    }
+    var listFromStack = aftersStack[stackIndexForThisObs][0];
+    listFromStack.push([obs, f]);
+    if (!rootEvent) {
+      processAfters();
+    }
   } else {
-    return f();
-  }
+      return f();
+    }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -9787,13 +12237,7 @@ this.push(new Bacon.Error(&#x22;Value below zero&#x22;));
       flush();
     } finally {
       rootEvent = undefined;
-      while (aftersIndex &#x3c; afters.length) {
-        var after = afters[aftersIndex];
-        aftersIndex++;
-        after();
-      }
-      aftersIndex = 0;
-      afters = [];
+      processAfters();
     }
     return result;
   }
@@ -9847,7 +12291,7 @@ this.push(new Bacon.Error(&#x22;Value below zero&#x22;));
     return doUnsub();
   };
   doUnsub = obs.dispatcher.subscribe(function (event) {
-    return afterTransaction(function () {
+    return afterTransaction(obs, function () {
       if (!unsubd) {
         var reply = sink(event);
         if (reply === Bacon.noMore) {
